@@ -3,7 +3,7 @@ services:
 
     nginx:
         build: .
-        image: vmedinskiy/nginx-le
+        image: vmedinskiy/nginx-le:latest
         hostname: nginx
         restart: always
         container_name: nginx
